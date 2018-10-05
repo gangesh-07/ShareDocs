@@ -1,0 +1,189 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*** 
+# Wrapper 
+1) Header
+2) Banner
+3) Container 
+4) Footer
+ 
+***/
+ .links{ float:right; margin-top:116px; }
+
+ .links ul{ margin:0; padding:0; list-style-type:none; }
+
+ .links li{ display:inline; margin:0 0 0 30px; font:16px Arial, Helvetica, sans-serif; }
+
+ .links li a{ color:#e3e7e8; text-decoration:none; }
+
+.links li a:hover{ color:#FFCC33; }
+
+
+body {
+ -webkit-font-smoothing: antialiased;
+margin:0px;
+padding:0px;
+font-size:12px;
+color:#878787;
+line-height:12px;
+text-decoration:none;
+font-family:Verdana;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+margin:0px;
+padding:0px;
+}
+
+a,img {
+margin:0px;
+padding:0px;
+border:none;
+text-decoration:none; }
+
+.clear {
+clear:both; 
+}
+
+.left { float:left; }
+
+.right { float:right; }
+
+/*** Headings ***/
+
+h1 { margin:0px; padding:0px; font-size:56px;   font-family:Verdana;}
+h2 { margin:0px; padding:0px; font-size:20px;   font-family:Verdana;}
+h3 { margin:0px; padding:0px; font-size:18px;   font-family:Verdana; }
+h4 { margin:0px; padding:0px; font-size:16px;   font-family:Verdana; }
+h5 { margin:0px; padding:0px; font-size:15px;   font-family:Verdana; }
+h6 { margin:0px; padding:0px; font-size:12px;   font-family:Verdana; }
+
+/*** Links ***/
+
+a { color: #fa5353; font-weight: 600; text-decoration: underline; }
+
+a:hover { color: #000; }
+a:focus { outline: thin dotted; }
+a:hover, a:active { outline: 0; }
+
+/*** Typography ***/
+
+b, strong { font-weight: bold; }
+
+hr {
+display: block;
+height: 1px;
+border: 0;
+border-top: 1px solid #ccc;
+margin: 0;
+padding: 0;
+}
+small { font-size: 85%; }
+p { margin-bottom:20px; } 
+
+/*** Wrapper ***/
+.wrapper { margin:0px auto; width:1039px; display:table; }
+.row { margin:0px; padding:0px; width:100%; display:table; }
+/**** Header Section ****/
+.header { margin:0px; padding:40px 0px; width:100%; display:table; }
+.logo {margin-top:10px; padding:0px; float:left; }
+.login-btn { margin:0px; padding:10px 30px; font-size:15px; color:#fff; float:right; background:#fa5353; border-radius:2px; border:none; }
+
+/*** banner section ***/
+.banner { margin:0px auto; display:table; background:url(../images/banner.jpg) no-repeat #3c1322; width:100%; height:470px; background-size:100%; border-bottom:4px solid #fa5353; border-top:4px solid #fa5353;}
+.banner .row { margin:52px 0 0 0;  }
+.banner .row1{ margin:10px 0 0 0;  }
+.banner h1 { font-size:56px; margin-top:60px; color:#fff;}
+.banner .row ul { margin:50px 0 0 38px; padding:0px; width:40%; float:left;}
+.btn-holder {margin:55px 0 0 0; float:left;}
+.banner .row ul li { margin:0px; padding:0px; list-style:url(../images/tick.png); font-size:20px; color:#fff; line-height:35px; }
+.upload-btn { margin:0px 0 0 0; padding:25px 107px 25px 50px; font-size:25px; font-weight:bold; color:#fff; float:left; background:url(../images/upload.png) no-repeat 190px 14px #fa5353;  border-radius:2px; border:none;}
+.upload-btn a{ color:#fff;}
+.or { margin:0px; padding:24px 20px ; float:left; color:#fff; font-size:15px; font-weight:bold; }
+.drag-drop { margin:0px; background:url(../images/drag-drop.png) no-repeat; float:left; width:220px; height:118px; }
+.drag-drop a{ color:#fff;}
+.drag-drop p {color:#fff; margin:0px; width:54%; text-align:left; margin:56px auto;   font-size: 15px; line-height: 20px;}
+.banner .right { margin:30px 0 0; }
+.search { width:556px; margin:20px 0 0 0px; height:58px; background:#fff; border-radius:3px; }
+.search input { margin:0 0 0 5px; padding:20px 25px; background:#fff; border:none; width:75%; font-size:15px; color:#cccccc; }
+.search img { margin:0px; float:right; padding:15px;}
+
+/*** Content ***/
+.container { margin:50px 0 0 0; padding:0px; float:left;  width:100%; display:block; }
+.con-left { margin:0px; padding:0px; float:left; width:62%; text-align:justify;}
+.con-left h2 { margin:30px 0 20px; color:#fff;}
+.con-left p {line-height:22px;color:#fff; font-weight: bold;}
+.con-right {margin-top: 200px; float:right; width:35%;}
+.sign-up-box { margin:0px; padding:15px; display:table; background:#f1f1f1; border-radius:2px; border-bottom:4px solid #fa5353; box-shadow:0 0 3px 0 rgba(0, 0, 0, 0.5); width:91%;}
+.sign-up-box > img { display: table; margin: 0px auto; }
+.sign-up-box h3 {display: table; margin:25px auto; font-weight:600;}
+.sign-up-box input { width:93%; color:#c2c1c0; padding:8px 10px; margin-bottom:15px; font-size:15px; border:none; border-radius:5px; border:1px solid #e7e5e5;}
+.sign-up-box input.sign-up { color: #ffffff; }
+.sign-up-box input.login-btn { color: #ffffff; float: left; width: 100%; }
+.sign-up { margin:0px auto; font-weight:bold; padding:10px 20px; font-size:15px; color:#fff; display:table; background:#fa5353; border-radius:2px; border:none;}
+
+/*** secure bg ***/
+.secure-bg { margin:0px; background:url(../images/secure-bg.jpg) no-repeat #a16b6b; color:#fff; background-size:100%; width:100%; height:100%;}
+.secure-bg img { margin:80px auto 40px; display:table;}
+.secure-bg p { text-align:center; width:54%; margin:15px auto 70px; line-height:18px;}
+.secure-bg h3 { text-align:center; font-size:25px; font-weight:normal; }
+
+/*** Footer Section ***/
+.footer { margin:0px; padding:40px 0px; display:table; width:100%; }
+.footer ul { margin:0px auto; padding:0px; text-align:center; width:100%;}
+.footer ul li { margin:0px; padding:0px; display:inline; list-style:none;  }
+.footer ul li a {color:#878787;  }
+.footer ul li a:hover{ color:#fa5353;}
+.footer ul li:first-child { border:none;}
+.footer  p {  margin:8px auto 0;  text-align: center;  width: 100%;}
+
+/**** internal page ******/
+.outer-div {border-top:4px solid #fa5353; width:100%; background:url(../images/banner.jpg) no-repeat #3c1322; background-size:cover;}
+.heading { font-size:25px; margin:0 0 15px; }
+.inner-container { padding: 25px 0;  width: auto; line-height:20px;}
+/***** 15 July Changes *****/
+.nav-menu { float: right; width: 70%; }
+input[type="submit"] {  border: 1px solid #000; background: #fa5353;  color: #ffffff;  font-size: 16px !important;  padding: 6px 20px; }
+input[type="reset"] { background: #fa5353; border: 1px solid #000;  color: #ffffff;  font-size: 16px !important;  padding: 6px 20px; }
+form table select { height: 32px; margin-bottom: 10px; width: 200px; }
+form table input[type="text"] { height: 30px;  margin-bottom: 10px;  width: 196px; }
+form table textarea { height: 80px;  margin-bottom: 10px;}
+input[type="file"] { color: #fa5353; font-size: 14px; font-weight: 600; letter-spacing: 1px; margin-bottom: 10px; }
+form table { margin-bottom: 40px; }
+.edit { background: #fa5353 none repeat scroll 0 0; border:1px solid #000; color: #ffffff !important; height: 30px; line-height: 30px; padding: 6px 20px; text-decoration: none; transition: all 0.3s ease 0s;}
+form iframe { margin-top: 15px; }
+hr { margin: 8px 0; }
+.sub-btn {  margin-top: -11px; }
+
+.con-left .heading{ color:#fff;}
+.con-left form{ float:left; width:100%;}
+.con-left form table{ float:left; width:100%; max-width: 600px;}
+.con-left form table tr{ float:left; width:100%;padding: 10px 0px;}
+.con-left form table.formlist tr{ border-bottom:1px solid #000;} 
+.con-left form table tr td{min-width:400px;}
+.con-left form table tr td:first-child, .con-left form table tr th:first-child{ font-size: 14px; min-width:200px; text-align:left; color:#555; font-weight:bold;}
+.con-left form table tr td a{ background: #fa5353 none repeat scroll 0 0;
+    border: 1px solid #fa5353;
+    color: #ffffff; text-decoration:none;
+    font-size: 16px !important;
+    padding: 6px 20px;  border: 1px solid #000;}
+.con-left form table tr td a:hover{}
+.con-left form .uploaded{ border: 1px solid #fff; background-color: #fff; max-width: 100% !important;}
+.con-left .uploaded td:first-child{ color: #000; font-weight: normal;}
+.con-left .uploaded tr th, .con-left .uploaded tr td{ box-sizing:border-box; min-width:33.33%; float:left; width:33.33%;}
+.con-left .uploaded tr th { color:#000; font-weight:bold; padding: 5px;}
+.con-left .uploaded tr td{color:#000; font-weight:normal;padding: 5px; }
+.con-left .uploaded tr td a.edit{ display: inline-block; width:auto;  padding: 0 9px;}
+.con-left.formdoc{ width:100%;}
+.con-left iframe{ border: 0 none;
+    height: 400px !important;
+    margin-bottom: 20px;
+    overflow: hidden;
+    width: 100%;}
+.con-left .iframe{ float:left; width:100%;}
+.outer-div.iframe{background-size:cover;}
+
+.con-left form table tr th{color:#000; font-weight:bold; padding: 5px; font-size:16px;}
+.con-left form table.formlist{ }
+.con-left form table.formlist tr{max-width: 700px;}

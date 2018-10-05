@@ -1,0 +1,82 @@
+						Client Site State Management............
+
+                                                                                                                               COOKIES
+
+Cookies-to store data in text file and that text file reside in on client machine.
+ We can store only string values not objects.
+
+Scope=> Multiple pages on current machine.
+
+Cookies are url specific.
+
+By default cookies are temporary and temporary cookies are stored in browser memory. But we can create permanent cookie as we can specify expiry date n time for cookie........the expiry date n time in cookies is of server.
+
+On evry request  cookies goes to the server then server expires the cookie.
+
+Initial size of cookie==50 bytes...(eithr we use or not its initial.)
+
+Max. ize of cookie== 4096 bytes OR 4 KB..
+
+Per website how much cookies we can create==20 cookies(Maximum)
+the size can varry from browser to browser.
+
+
+DRAWBACKS...
+
+1.Size limitation
+
+2.User can manipulate the cookies.
+
+3. User can enable n disable the cookies.
+
+```````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````` 
+
+                                                                                                          QUERY STRINGS
+
+Data concetinate with url.
+
+We can store only string values not objects.
+
+SCOPE=> Next page
+
+Max size of url==1024 chars.  /  2100 chars.
+
+How to pass mutiple qry strings??
+=>
+
+
+DRAWBACKS
+
+1. Size limitation.
+
+2.Not Secure
+
+````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````
+ 						     HIDDEN
+
+Data store in a control.
+WE ccan store only string values but not objects.
+
+SCOPE=>Next page.
+
+
+PErformance wise better than qry strings.
+
+	``````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````
+
+
+
+                                              			Server Site State Management...........
+
+                                                                                                         SSESION
+
+Session id=>Server generate unique session id for all users..
+
+
+It creates two copies of session id...one store on server and second in client machine(these cookies are session cookies).
+Size of id ==128 bits.
+
+
+If we close session cookies then some websites will open n some will not. 
+
+Session variables= in session variables we can store string values an objects also.

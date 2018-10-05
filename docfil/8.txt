@@ -1,0 +1,137 @@
+ShareDocs:
+
+user registration
+login
+documents upload
+documents organization
+share documents
+
+dbdoc
+
+1.tbreg
+     regcod     int    p.k   auto increment
+     regeml    varchar(50)
+     regpwd   varchar(50)
+     regdat     datetime
+
+2.tblst
+      lstcod        int   p.k   auto increment
+     lstnam        varchar(50)
+     lstdsc          varchar(500)
+     lstregcod     int     f.k
+
+3.tbdoc
+     doccod     int     p.k   auto increment
+     doctit         varchar(100)
+     doclstcod     int      f.k
+     docdsc       varchar(500)
+     docfil            varchar(50)
+     docupldat        datetime
+     
+4.tbshr
+     shrcod      int     p.k   datetime
+     shrdat        datetime
+     shrdoccod      int       f.k
+     shrregcod      int      f.k
+
+stored procedures    insreg    updreg   delreg   dspreg   fndreg
+_________________________________________________________________
+
+clscon
+clsreg
+    save_rec()
+   5 methods
+
+clsdoc
+clsshr
+ 
+
+DayTrips
+
+user registration
+login
+create trip  add photos
+search trip by location
+like a trip
+
+dbdaytrp
+
+1.tbreg
+    regcod    int     p.k   auto increment
+    regeml    varchar(50)
+    regpwd   varchar(50)
+    regdat       datetime
+
+2.tbcty
+    ctycod      int    p.k   auto increment
+    ctynam     varchar(100)
+
+3.tbloc
+    loccod     int    p.k  auto increment
+    locnam   varchar(100)
+    locctycod    int    f.k
+
+4.tbtrp
+    trpcod     int    p.k   auto increment
+    trploccod     int     f.k
+    trpregcod    int     f.k
+    trptit           varchar(100)
+    trpdsc        varchar(1000)
+    trpcst         varchar(100)
+    trpdat         datetime
+    trplik           int
+    trpmanpiccod      int        f.k
+
+5.tbtrppic
+    trppiccod    int    p.k   auto increment
+    trppictrpcod     int    f.k
+    trppicfil            varchar(50)
+    trppicdsc        varchar(500)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
